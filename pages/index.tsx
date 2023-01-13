@@ -49,7 +49,7 @@ export default function Home({ donations }: { donations: Array<Record> }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className="flex flex-col md:flex-row max-w-2xl m-auto justify-center w-full items-center min-h-screen">
-        <div className="flex  mt-5  flex-col md:flex-row md:justify-center flex-wrap">
+        <div className="flex mt-5 flex-col flex-1 mx-w-100 h-max overflow-auto">
           {_donations.map((donation) => {
             return (
               <div
